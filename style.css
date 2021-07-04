@@ -18,6 +18,7 @@ h1{
 section{
 
     display: flex;
+    margin-bottom: 100px ;
 }
 
 .half-width{
@@ -30,6 +31,8 @@ section{
      width: 77.5%;
 }
 
+
+
 .link-button{
 
     text-decoration: none;
@@ -41,8 +44,24 @@ section{
 
 }
 
+
+
 .top-banner{
 
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.top-banner2{
+
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    
+    background-position: right; 
+}
+
+.half-width2 p{
+    padding-right: 100px;
+    text-align: justify;
+
 }
