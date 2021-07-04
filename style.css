@@ -10,12 +10,18 @@ h1{
 
 }
 
+h2{
+
+  font-size: 35px;
+
+}
+
 .font-design{
 
   color: orange;
 
 } 
-section{
+.flexable-continner{
 
     display: flex;
     margin-bottom: 100px ;
@@ -60,8 +66,61 @@ section{
     background-position: right; 
 }
 
+
+.top-banner3{
+
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  
+  background-position: left; 
+}
+
 .half-width2 p{
     padding-right: 100px;
     text-align: justify;
 
+}
+
+.header-design{
+
+ color: orange;
+
+}
+
+
+footer{
+
+  text-align: center;
+  padding-bottom: 18px;
+
+}
+
+
+.exprience-item{
+
+ width: 45%;
+ margin-left: 5%;
+ margin-right: 5%;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 10px 10px 50px gray;
+
+
+
+}
+
+#web-dev{
+
+  border-left: 7px solid;
+  border-image:  linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+ 
+}
+
+#jr-web-dev{
+
+  border-left: 7px solid;
+  border-image:  linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  
 }
